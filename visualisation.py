@@ -19,4 +19,14 @@ df.hist(figsize=(10,5), bins=10, rwidth=0.8)
 #shows histogram
 plt.show()
 
-#Separate histograms
+#Separate histograms for each column
+
+plt.figure(figsize = (10, 5)) 
+x = df["sepal_length"] 
+  
+plt.hist(x, color = "red", bins=20, rwidth=0.8) 
+plt.title("Sepal Length in cm") 
+plt.xlabel("Sepal Length cm") 
+plt.ylabel("Number of iris")
+
+plt.show()
