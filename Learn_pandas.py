@@ -24,3 +24,7 @@ print(df.index)
 #gives a list of the column headings
 print(df.columns)
 
+#outputs top level statistical analysis of the dataset
+print(df.describe())
+
+
