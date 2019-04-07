@@ -1,0 +1,23 @@
+#Keeping a track of sources/references used throughout project
+#Soem of these we just used during research to get familiar with the problem
+#Will update in Readme at future date
+
+https://pandas.pydata.org/pandas-docs/stable/getting_started/overview.html#data-structures
+
+https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html#minutes-to-pandas
+
+https://blog.hedaro.com/Create-Pandas-DataFrame.html
+
+https://www.kaggle.com/bmaria/iris-dataset
+
+https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342
+
+https://www.kaggle.com/ashokdavas/iris-data-analysis-pandas-numpy
+
+https://www.kaggle.com/lalitharajesh/iris-dataset-exploratory-data-analysis
+
+https://www.youtube.com/watch?v=e60ItwlZTKM
+
+https://www.kaggle.com/gopaltirupur/iris-data-analysis-and-machine-learning-python
+
+https://www.geeksforgeeks.org/python-read-csv-using-pandas-read_csv/
