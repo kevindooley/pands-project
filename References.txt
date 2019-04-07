@@ -23,3 +23,15 @@ https://www.kaggle.com/gopaltirupur/iris-data-analysis-and-machine-learning-pyth
 https://www.geeksforgeeks.org/python-read-csv-using-pandas-read_csv/
 
 https://matplotlib.org/api/_as_gen/matplotlib.pyplot.hist.html
+
+https://www.youtube.com/watch?v=r75BPh1uk38
+
+https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
+
+https://www.geeksforgeeks.org/box-plot-and-histogram-exploration-on-iris-data/
+
+https://www.programiz.com/python-programming/reading-csv-files#reading-dictionary
+
+https://seaborn.pydata.org/tutorial/distributions.html#plotting-univariate-distributions
+
+https://seaborn.pydata.org/tutorial/distributions.html#plotting-univariate-distributions
