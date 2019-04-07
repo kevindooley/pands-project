@@ -21,3 +21,5 @@ https://www.youtube.com/watch?v=e60ItwlZTKM
 https://www.kaggle.com/gopaltirupur/iris-data-analysis-and-machine-learning-python
 
 https://www.geeksforgeeks.org/python-read-csv-using-pandas-read_csv/
+
+https://matplotlib.org/api/_as_gen/matplotlib.pyplot.hist.html
