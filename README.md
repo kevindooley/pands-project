@@ -19,10 +19,6 @@ mean of each column of the data set. A Python script will quickly do this for yo
 The Iris flower data set or Fisher's Iris data set is a multivariate data set introduced by the British statistician and biologist Ronald Fisher in his 1936 paper "The use of multiple measurements in taxonomic problems as an example of linear 
 discriminant analysis.". The data set consists of 50 samples from each of three species of Iris (Iris setosa, Iris virginica and Iris versicolor). Four features were measured from each sample: the length and the width of the sepals and petals, in centimetres. The data set contains 150 observations of iris flowers. 
 
-
-
-
-
 ![](iris.png)
 
 # Getting Started
@@ -31,3 +27,7 @@ discriminant analysis.". The data set consists of 50 samples from each of three 
 2.  Recommend downloading python via Anaconda to get useful additional software including Visual Studio Code and Ipython.
 3.  Download and install a command prompt - recommend Cmder (Windows) or Terminal (Mac).
 4.  Download the files from this repository to your desktop.
+
+# Libraries
+
+![](libraries.png)
