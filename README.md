@@ -30,4 +30,4 @@ discriminant analysis.". The data set consists of 50 samples from each of three 
 
 # Libraries
 
-![](libraries.png)
+->![](libraries.png)<-
