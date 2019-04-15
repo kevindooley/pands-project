@@ -39,3 +39,5 @@ https://seaborn.pydata.org/tutorial/distributions.html#plotting-univariate-distr
 https://seaborn.pydata.org/generated/seaborn.boxplot.html?highlight=boxplots
 
 https://seaborn.pydata.org/tutorial/distributions.html#visualizing-pairwise-relationships-in-a-dataset
+
+https://www.tilcode.com/add-a-screenshot-to-your-github-repo-readme-md/
