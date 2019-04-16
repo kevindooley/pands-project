@@ -29,4 +29,5 @@ discriminant analysis.". The data set consists of 50 samples from each of three 
 
 # Python Libraries Used in Project
 
-->![](libraries.png "Image showing libraries)<-
+->![](libraries.png "Image showing libraries")<-
+
