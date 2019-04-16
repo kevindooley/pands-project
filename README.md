@@ -40,10 +40,10 @@ To be able to give an overview of Fisher's Iris dataset, I had to first obtain i
 I refered back to the lecture in week 7 "opening files for reading and writing" which provided the foundation to develop some code to read the data in irisdataset.csv.
 By importing pandas as pd, I created pd.read_csv("irisdataset.csv") which imported the dataset.
 
-'''
-# imported iris dataset csv file
-# prints out the data set
+'''# imported iris dataset csv file
+    # prints out the data set
 df = pd.read_csv("irisdataset.csv")
 print(df)
 '''
+
 
