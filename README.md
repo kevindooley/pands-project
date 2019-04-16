@@ -31,5 +31,5 @@ discriminant analysis.". The data set consists of 50 samples from each of three 
 
 ![](libraries.png "Image showing libraries")
 
-I originally found information on the different libraries to use for this project from the lecture videos. Matplotlib and pandas were suggested to use to assist in this project. After further research I found the seaborn is also a useful library to use to generate visual graphs. 
+I originally found information on the different libraries to use for this project from the lecture videos. Matplotlib and pandas were suggested to use to assist in this project. After further research I found the seaborn was also a useful library to use to graphically visualise data. Scikit-learn is a further tool available that would be perfect for this project but after research I felt this library was slightly too advanced for me at the moment and so just used the tools as mentioned above.
 
