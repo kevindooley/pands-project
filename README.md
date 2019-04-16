@@ -29,5 +29,7 @@ discriminant analysis.". The data set consists of 50 samples from each of three 
 
 # Python Libraries Used in Project
 
-->![](libraries.png "Image showing libraries")<-
+![](libraries.png "Image showing libraries")
+
+I originally found information on the different libraries to use for this project from the lecture videos. Matplotlib and pandas were suggested to use to assist in this project. After further research I found the seaborn is also a useful library to use to generate visual graphs. 
 
