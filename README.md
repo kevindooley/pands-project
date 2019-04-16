@@ -27,6 +27,6 @@ discriminant analysis.". The data set consists of 50 samples from each of three 
 3.  Download and install a command prompt - recommend Cmder (Windows) or Terminal (Mac).
 4.  Download the files from this repository to your desktop.
 
-# Libraries
+# Python Libraries Used in Project
 
-                            ->![](libraries.png)<-
+->![](libraries.png "Image showing libraries)<-
