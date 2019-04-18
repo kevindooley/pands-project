@@ -7,7 +7,6 @@ import matplotlib.pyplot as plt
 # imported iris dataset csv file
 # prints out the data set
 df = pd.read_csv("irisdataset.csv")
-df.columns = ['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'species']
 print(df)
 
 
