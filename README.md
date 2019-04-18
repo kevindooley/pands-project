@@ -49,7 +49,7 @@ df = pd.read_csv("irisdataset.csv")
 print(df)
 ~~~
 
-#Overview of the dataset
+# Overview of the dataset
 ## Dataset dimensions
 
 By using the shape property we can get a quick idea of how many rows and how many attributes columns the data contains.
@@ -57,7 +57,6 @@ By using the shape property we can get a quick idea of how many rows and how man
 ~~~python
 #how many rows and columns (in that order)
 print(df.shape)
-~~~
 ~~~python
 [Output]
 [150 rows x 5 columns]
