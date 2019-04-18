@@ -33,6 +33,8 @@ discriminant analysis.". The data set consists of 50 samples from each of three 
 
 I originally found information on the different libraries to use for this project from the lecture videos. Matplotlib and pandas were suggested to use to assist in this project. After further research I found the seaborn was also a useful library to use to graphically visualise data. Scikit-learn is a further tool available that would be perfect for this project but after research I felt this library was slightly too advanced for me at the moment and so just used the tools as mentioned above.
 
+(insert line on each library used)
+
 # Starting the dataset
 To be able to give an overview of Fisher's Iris dataset, I had to first obtain it. I found the dataset online and copied and saved it as a CSV file in my repository. This was saved as irisdataset.csv and was the basis of the project.
 
@@ -47,4 +49,18 @@ df = pd.read_csv("irisdataset.csv")
 print(df)
 ~~~
 
+#Overview of the dataset
+## Dataset dimensions
+
+By using the shape property we can get a quick idea of how many rows and how many attributes columns the data contains.
+
+~~~python
+#how many rows and columns (in that order)
+print(df.shape)
+~~~
+~~~python
+[Output]
+[150 rows x 5 columns]
+(150, 5)
+~~~
 
