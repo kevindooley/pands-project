@@ -57,9 +57,31 @@ By using the shape property we can get a quick idea of how many rows and how man
 ~~~python
 #how many rows and columns (in that order)
 print(df.shape)
+~~~
+Outpuy
 ~~~python
-[Output]
 [150 rows x 5 columns]
 (150, 5)
 ~~~
+
+#Glance at the data
+
+By glanicng at the data using the head function it is possible to eyeball the data at different levels. In this instance we are viewing 5 rows (default).
+
+~~~python
+# prints out first out first 5 rows of dataset (default)
+# input any number to get that many rows displayed
+print(df.head())
+~~~
+Output - top level infomation from the first five rows in the data set
+~~~python
+ sepal_length  sepal_width  petal_length  petal_width      species
+0           5.1          3.5           1.4          0.2  Iris-setosa
+1           4.9          3.0           1.4          0.2  Iris-setosa
+2           4.7          3.2           1.3          0.2  Iris-setosa
+3           4.6          3.1           1.5          0.2  Iris-setosa
+4           5.0          3.6           1.4          0.2  Iris-setosa
+~~~
+
+
 
