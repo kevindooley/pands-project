@@ -79,7 +79,7 @@ Output - top level infomation from the first five rows in the data set
         4.7          3.2           1.3          0.2     Iris-setosa
         4.6          3.1           1.5          0.2     Iris-setosa
         5.0          3.6           1.4          0.2     Iris-setosa
-
+~~~
 
 By using tail we are able to view the last 5 rows in the dataset
 ~~~python
@@ -87,14 +87,14 @@ By using tail we are able to view the last 5 rows in the dataset
 print(df.tail())
 ~~~
 Output - top level infomation from the five last rows in the data set
-
+~~~python
 sepal_length  sepal_width  petal_length  petal_width         species
         6.7          3.0           5.2          2.3     Iris-virginica
         6.3          2.5           5.0          1.9     Iris-virginica
         6.5          3.0           5.2          2.0     Iris-virginica
         6.2          3.4           5.4          2.3     Iris-virginica
         5.9          3.0           5.1          1.8     Iris-virginica
-
+~~~
 
 By using sample we are able to view the last 5 rows in the dataset
 ~~~py
@@ -102,7 +102,7 @@ By using sample we are able to view the last 5 rows in the dataset
 print(df.sample(10))
 ~~~
 Output - - top level infomation from 10 random rows in the data set
-
+~~~python
      sepal_length  sepal_width  petal_length  petal_width          species
 145           6.7          3.0           5.2          2.3   Iris-virginica
 140           6.7          3.1           5.6          2.4   Iris-virginica
