@@ -57,16 +57,14 @@ By using the shape property we can get a quick idea of how many rows and how man
 ~~~python
 #how many rows and columns (in that order)
 print(df.shape)
-~~~
-Outpuy
-~~~python
+
+Output
 [150 rows x 5 columns]
-(150, 5)
 ~~~
 
 # Glance at the data
 
-By glanicng at the data using the head function it is possible to eyeball the data at different levels. In this instance we are viewing 5 rows (default).
+By glancing at the data using the head, tail and sample functions it is possible to eyeball the data at different levels. In using head we are able to view the first 5 rows (5 rows is shown by default if no number entered).
 
 ~~~python
 # prints out first out first 5 rows of dataset (default)
@@ -83,11 +81,12 @@ Output - top level infomation from the first five rows in the data set
         5.0          3.6           1.4          0.2     Iris-setosa
 ~~~
 
+By using tail we are able to view the last 5 rows in the dataset
 ~~~python
-#default displays last 3 rows of data set
+#default displays last 5 rows of data set
 print(df.tail())
- 
-Output - top level infomation from the last five rows in the data set
+~~~
+Output - top level infomation from the five last rows in the data set
 
 sepal_length  sepal_width  petal_length  petal_width         species
         6.7          3.0           5.2          2.3     Iris-virginica
@@ -97,4 +96,22 @@ sepal_length  sepal_width  petal_length  petal_width         species
         5.9          3.0           5.1          1.8     Iris-virginica
 ~~~
 
+By using sample we are able to view the last 5 rows in the dataset
+~~~python
+#Displays 10 random rows from the set
+print(df.sample(10))
+~~~
+Output - - top level infomation from 10 random rows in the data set
 
+     sepal_length  sepal_width  petal_length  petal_width          species
+145           6.7          3.0           5.2          2.3   Iris-virginica
+140           6.7          3.1           5.6          2.4   Iris-virginica
+125           7.2          3.2           6.0          1.8   Iris-virginica
+28            5.2          3.4           1.4          0.2      Iris-setosa
+137           6.4          3.1           5.5          1.8   Iris-virginica
+11            4.8          3.4           1.6          0.2      Iris-setosa
+132           6.4          2.8           5.6          2.2   Iris-virginica
+61            5.9          3.0           4.2          1.5  Iris-versicolor
+142           5.8          2.7           5.1          1.9   Iris-virginica
+144           6.7          3.3           5.7          2.5   Iris-virginica
+~~~
