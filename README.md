@@ -64,7 +64,7 @@ Outpuy
 (150, 5)
 ~~~
 
-#Glance at the data
+# Glance at the data
 
 By glanicng at the data using the head function it is possible to eyeball the data at different levels. In this instance we are viewing 5 rows (default).
 
@@ -76,12 +76,25 @@ print(df.head())
 Output - top level infomation from the first five rows in the data set
 ~~~python
  sepal_length  sepal_width  petal_length  petal_width      species
-0           5.1          3.5           1.4          0.2  Iris-setosa
-1           4.9          3.0           1.4          0.2  Iris-setosa
-2           4.7          3.2           1.3          0.2  Iris-setosa
-3           4.6          3.1           1.5          0.2  Iris-setosa
-4           5.0          3.6           1.4          0.2  Iris-setosa
+        5.1          3.5           1.4          0.2     Iris-setosa
+        4.9          3.0           1.4          0.2     Iris-setosa
+        4.7          3.2           1.3          0.2     Iris-setosa
+        4.6          3.1           1.5          0.2     Iris-setosa
+        5.0          3.6           1.4          0.2     Iris-setosa
 ~~~
 
+~~~python
+#default displays last 3 rows of data set
+print(df.tail())
+ 
+Output - top level infomation from the last five rows in the data set
+
+sepal_length  sepal_width  petal_length  petal_width         species
+        6.7          3.0           5.2          2.3     Iris-virginica
+        6.3          2.5           5.0          1.9     Iris-virginica
+        6.5          3.0           5.2          2.0     Iris-virginica
+        6.2          3.4           5.4          2.3     Iris-virginica
+        5.9          3.0           5.1          1.8     Iris-virginica
+~~~
 
 
