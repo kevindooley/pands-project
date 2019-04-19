@@ -62,6 +62,21 @@ Output
 [150 rows x 5 columns]
 ~~~
 
+## Species column distribution
+
+It is possible to group by column. In this instance I grouped the 'species' column to let me see how many rows in the dataset belong to each of the three species.
+~~~python
+#species distribution
+print(df.groupby('species').size())
+
+Output
+species
+Iris-setosa        50
+Iris-versicolor    50
+Iris-virginica     50
+dtype: int64
+~~~
+
 # Glance at the data
 
 By glancing at the data using the head, tail and sample functions it is possible to eyeball the data at different levels. 
@@ -95,7 +110,7 @@ sepal_length  sepal_width  petal_length  petal_width         species
         5.9          3.0           5.1          1.8     Iris-virginica
 ~~~
 
-**By using sample we are able to view the last 5 rows in the dataset.**
+**By using sample we are able to view 10 random rows within the dataset.**
 ~~~py
 #Displays 10 random rows from the set
 print(df.sample(10))
