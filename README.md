@@ -29,9 +29,9 @@ discriminant analysis.". The data set consists of 50 samples from each of three 
 
 # Python Libraries Used in Project
 
-![](libraries.png "Image showing libraries")
-
 I originally found information on the different libraries to use for this project from the lecture videos. Matplotlib and pandas were suggested to use to assist in this project. After further research I found the seaborn was also a useful library to use to graphically visualise data. Scikit-learn is a further tool available that would be perfect for this project but after research I felt this library was slightly too advanced for me at the moment and so just used the tools as mentioned above.
+<p align ="center"><img src="libraries.png" /></p>
+
 
 (insert line on each library used)
 
@@ -64,14 +64,14 @@ Output
 
 # Glance at the data
 
-By glancing at the data using the head, tail and sample functions it is possible to eyeball the data at different levels. In using head we are able to view the first 5 rows (5 rows is shown by default if no number entered).
+By glancing at the data using the head, tail and sample functions it is possible to eyeball the data at different levels. 
 
+**By using the head function we are able to view the first 5 rows.**
 ~~~python
 # prints out first out first 5 rows of dataset (default)
 # input any number to get that many rows displayed
 print(df.head())
 ~~~
-Output - top level infomation from the first five rows in the data set
 ~~~python
  sepal_length  sepal_width  petal_length  petal_width      species
         5.1          3.5           1.4          0.2     Iris-setosa
@@ -81,12 +81,11 @@ Output - top level infomation from the first five rows in the data set
         5.0          3.6           1.4          0.2     Iris-setosa
 ~~~
 
-By using tail we are able to view the last 5 rows in the dataset
+**By using tail we are able to view the last 5 rows in the dataset.**
 ~~~python
 #default displays last 5 rows of data set
 print(df.tail())
 ~~~
-Output - top level infomation from the five last rows in the data set
 ~~~python
 sepal_length  sepal_width  petal_length  petal_width         species
         6.7          3.0           5.2          2.3     Iris-virginica
@@ -96,12 +95,11 @@ sepal_length  sepal_width  petal_length  petal_width         species
         5.9          3.0           5.1          1.8     Iris-virginica
 ~~~
 
-By using sample we are able to view the last 5 rows in the dataset
+**By using sample we are able to view the last 5 rows in the dataset.**
 ~~~py
 #Displays 10 random rows from the set
 print(df.sample(10))
 ~~~
-Output - - top level infomation from 10 random rows in the data set
 ~~~python
      sepal_length  sepal_width  petal_length  petal_width          species
 145           6.7          3.0           5.2          2.3   Iris-virginica
