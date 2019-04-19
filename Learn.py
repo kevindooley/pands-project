@@ -1,8 +1,10 @@
+#Kevin Dooley 19 Apr 19
+#Overview of all the functions used to give a top level overview of the dataset
+#not all of these functions will be presented in the Readme but these are all 
+#examples of ones I learned how to use
 
 import numpy as np
 import pandas as pd
-import seaborn as sn
-import matplotlib.pyplot as plt
 
 # imported iris dataset csv file
 # prints out the data set
@@ -26,7 +28,7 @@ print(df.index)
 #gives a list of the column headings
 print(df.columns)
 
-#outputs top level statistical analysis of the dataset
+#outputs top level statistical analysis of the dataset ie mean, min, max etc
 print(df.describe())
 
 #sort a column descending highest to lowest
@@ -38,8 +40,13 @@ print(df.shape)
 #species distribution
 print(df.groupby('species').size())
 
-#min, max, mean, median 
+#min, max, mean, median, standard deviation
 print(df.min())
+print(df.max())
+print(df.std())
+print(df.median())
+print(df.mean())
 
 #Output 5 random rows from the set
 print(df.sample(5))
+
