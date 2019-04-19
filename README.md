@@ -131,3 +131,23 @@ print(df.sample(10))
 
 By using these three simple functions it is easy to do a brief comparision for each of the variables of the data between each of the species. 
 By looking at the 3rd table showing random rows you can already clearly see the 'Iris~setosa' appears to have a much smaller petal compared to the other species. There aleady early signs of comparability between Iris-virginica and Iris-versicolor.
+
+# Statistical summary
+
+There are two methods in which you can view a summary of the dataset. The firat method is using the describe function in pandas which will output a table with a statistical overview of the data. It is also possible to obtain all the same information by using each individual built in function such as min, max, mean etc.
+
+~~~python
+#outputs top level statistical analysis of the dataset ie mean, min, max etc
+print(df.describe())
+~~~
+
+       sepal_length  sepal_width  petal_length  petal_width
+----:----:----:----:---:
+count    150.000000   150.000000    150.000000   150.000000
+mean       5.843333     3.054000      3.758667     1.198667
+std        0.828066     0.433594      1.764420     0.763161
+min        4.300000     2.000000      1.000000     0.100000
+25%        5.100000     2.800000      1.600000     0.300000
+50%        5.800000     3.000000      4.350000     1.300000
+75%        6.400000     3.300000      5.100000     1.800000
+max        7.900000     4.400000      6.900000     2.500000
