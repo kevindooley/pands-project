@@ -188,3 +188,67 @@ df.hist(figsize=(10,5), bins=10, rwidth=0.8)
 
 ### Histogram of each individual variable
 
+<p align ="center"><img src="hist-sepal-length" /></p>
+
+~~~python
+#Separate histograms for each column
+# Sepal Length
+plt.figure(figsize = (10, 5)) 
+x = df["sepal_length"] 
+
+# colour of the histogram, range, layout 
+plt.hist(x, color = "blue", bins=20, rwidth=0.8) 
+#title of histogram
+plt.title("Histogram showing Sepal Length(cm) of all iris species")
+#x axis label 
+plt.xlabel("Sepal Length (cm)") 
+#y axis label
+plt.ylabel("Number of iris species")
+
+plt.show()
+~~~
+
+<p align ="center"><img src="hist-sepal-width" /></p>
+
+~~~python
+#Sepal Width
+plt.figure(figsize = (10, 5)) 
+x = df["sepal_width"] 
+  
+plt.hist(x, color = "blue", bins=20, rwidth=0.8) 
+plt.title("Histogram showing Sepal Width(cm) of all iris species") 
+plt.xlabel("Sepal Width (cm)") 
+plt.ylabel("Number of iris species")
+
+plt.show()
+~~~
+
+<p align ="center"><img src="hist-petal-length" /></p>
+
+~~~python
+#Petal Length
+plt.figure(figsize = (10, 5)) 
+x = df["petal_length"] 
+  
+plt.hist(x, color = "blue", bins=20, rwidth=0.8) 
+plt.title("Histogram showing Petal Length(cm) of all iris species") 
+plt.xlabel("Petal Length (cm)") 
+plt.ylabel("Number of iris species")
+
+plt.show()
+~~~
+
+<p align ="center"><img src="hist-petal-width" /></p>
+
+~~~python
+#Petal Width
+plt.figure(figsize = (10, 5)) 
+x = df["petal_width"] 
+  
+plt.hist(x, color = "blue", bins=20, rwidth=0.8) 
+plt.title("Histogram showing Petal Width(cm) of all iris species") 
+plt.xlabel("Petal Width (cm)") 
+plt.ylabel("Number of iris species")
+
+plt.show()
+~~~
