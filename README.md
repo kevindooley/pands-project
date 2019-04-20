@@ -253,6 +253,8 @@ plt.ylabel("Number of iris species")
 plt.show()
 ~~~
 
+The Setosa Petal length and width are concentrated on the far left from the rest of the species. There seems to be strong similarities between the other two species.
+
 ## Boxplots
 
 In descriptive statistics, a box plot or boxplot is a method for graphically depicting groups of numerical data through their quartiles. Box plots may also have lines extending vertically from the boxes (whiskers) indicating variability outside the upper and lower quartiles, hence why also termed box-and-whisker plot.
@@ -304,3 +306,57 @@ sns.boxplot(x="species", y="petal_width", data=df)
 plt.title("Comparision of different Iris species petal width", fontsize=14, fontweight='bold')
 plt.show()
 ~~~
+
+### Violin plot
+
+A violin plot is a method of plotting numeric data. It is similar to a box plot, with the addition of a rotated kernel density plot on each side. Violin plots are similar to box plots, except that they also show the probability density of the data at different values.
+
+<p align ="center"><img src="violin-sepal-length.png" /></p>
+
+~~~python
+#Comparision of species sepal length
+# set the background to a white grid
+sns.set(style="whitegrid", palette="Set2")
+# using seaborn - violin plot comparing 3 species sepal length
+sns.violinplot(x="species", y="sepal_length", data=df)
+plt.title("Comparision of different Iris species sepal length", fontsize=14, fontweight='bold')
+plt.show()
+~~~
+
+<p align ="center"><img src="violin-sepal-width.png" /></p>
+
+~~~python
+#Comparision of species sepal width
+# set the background to a white grid
+sns.set(style="whitegrid", palette="Set2")
+# using seaborn - violin plot comparing 3 species sepal width
+sns.violinplot(x="species", y="sepal_width", data=df)
+plt.title("Comparision of different Iris species sepal width", fontsize=14, fontweight='bold')
+plt.show()
+~~~
+
+<p align ="center"><img src="violin-petal-length.png" /></p>
+
+~~~python
+#Comparision of species petal length
+# set the background to a white grid
+sns.set(style="whitegrid", palette="Set2")
+# using seaborn - violin plot comparing 3 species petal length
+sns.violinplot(x="species", y="petal_length", data=df)
+plt.title("Comparision of different Iris species petal length", fontsize=14, fontweight='bold')
+plt.show()
+~~~
+
+<p align ="center"><img src="violin-petal-width.png" /></p>
+
+~~~python
+#Comparision of species petal width
+# set the background to a white grid
+sns.set(style="whitegrid", palette="Set2")
+# using seaborn - violin plot comparing 3 species petal width
+sns.violinplot(x="species", y="petal_width", data=df)
+plt.title("Comparision of different Iris species petal width", fontsize=14, fontweight='bold')
+plt.show()
+~~~
+
+An overview of the three univariate plots suggests that there is strong comparability between Iris virginica and Iris versicolor regards to the flowers petal and sepal length and width. The histogram, box plot and violin all clearly indictate that the iris setosa does not share the same similarities. 
