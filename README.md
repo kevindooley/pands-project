@@ -33,7 +33,11 @@ I originally found information on the different libraries to use for this projec
 <p align ="center"><img src="libraries.png" /></p>
 
 
-(insert line on each library used)
+1. **Pandas** stands for “Python Data Analysis Library"and is open source, free to use. Pandas is quite a game changer when it comes to analyzing data with Python and it is one of the most preferred and widely used tools in data analysing if not the most used library. Pandas allows you to take data from a CSV and create a Python object with rows and columns called data frame. That data frame is then the basis for interpreting the data within the csv file.
+2. **NumPy** is a package for Python for scientific computing. It supports large, multidimensional arrays and matrices, meaning it is essential for a dataset of this nature.
+3. **Seaborn** is a high-level Python data visualisation library used for making attractive and informative statistical plots. It acts as a wrapper over matplotlib, and it’s used in conjunction with NumPy and pandas data structures
+4. **Matplotlib** similar to seaborn is a toolkit used the visualisation of data. Matplotlib is a Python 2D plotting library which produces publication quality figures in a variety of hardcopy formats and interactive environments across platforms. 
+
 
 These 4 libraries were imported into python as per below and were the foundation for this project allowing me to interpret and present the dataset.
 ~~~python
