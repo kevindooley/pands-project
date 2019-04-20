@@ -35,6 +35,14 @@ I originally found information on the different libraries to use for this projec
 
 (insert line on each library used)
 
+These 4 libraries were imported into python as per below and were the foundation for this project allowing me to interpret and present the dataset.
+~~~python
+import numpy as np
+import pandas as pd
+import seaborn as sn
+import matplotlib.pyplot as plt
+~~~
+
 # Starting the dataset
 To be able to give an overview of Fisher's Iris dataset, I had to first obtain it. I found the dataset online and copied and saved it as a CSV file in my repository. This was saved as irisdataset.csv and was the basis of the project.
 
