@@ -10,7 +10,7 @@ df = pd.read_csv("irisdataset.csv")
 #markers - gives legend 
 #hue - determines which column in the data frame should be used for colour encoding
 sns.pairplot(df, hue="species", palette="husl", markers=["o", "s", "D"])
-plt.title("Pairplot of data")
+
 #show plot
 
 plt.show()
