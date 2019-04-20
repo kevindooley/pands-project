@@ -360,3 +360,27 @@ plt.show()
 ~~~
 
 An overview of the three univariate plots suggests that there is strong comparability between Iris virginica and Iris versicolor regards to the flowers petal and sepal length and width. The histogram, box plot and violin all clearly indictate that the iris setosa does not share the same similarities. 
+
+## Scatterplot 
+
+A scatterplot is a graph in which the values of two variables are plotted along two axes, the pattern of the resulting points revealing any correlation present.
+
+A scatterplot is a multivariate plot allows us to look at the interactions between the variables.
+
+The belwo scatterplot examines all pairs of attributes. This will be helpful to spot structured relationships between input variables.
+
+<p align ="center"><img src="scatterplot.png" /></p>
+
+~~~python
+#create a pair plot/scatter plot
+#markers - gives legend 
+#hue - determines which column in the data frame should be used for colour encoding
+sns.pairplot(df, hue="species", palette="husl", markers=["o", "s", "D"])
+#show plot
+
+plt.show()
+~~~
+
+There appears to be diagonal grouping of some pairs of attributes. This suggests a high correlation and a predictable relationship. The scatterplot visually demonstrates iris setosa groupings away from the other two flowers. It is possible to linearly separate the setosa species from the other two, something which was suspected based on previous plots.
+
+By reviewing the scatterplot it appears petal length and petal width potentially has the highest correlation, this could be further confirmed using a correlation plot.
