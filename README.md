@@ -254,6 +254,8 @@ plt.show()
 ~~~
 
 ## Boxplots
+
+In descriptive statistics, a box plot or boxplot is a method for graphically depicting groups of numerical data through their quartiles. Box plots may also have lines extending vertically from the boxes (whiskers) indicating variability outside the upper and lower quartiles, hence why also termed box-and-whisker plot.
 By creating a box plot we can get a clearer idea of the distribution of the input attributes.
 
 ### Boxplot of each individual variable
