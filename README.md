@@ -141,3 +141,14 @@ There are two methods in which you can view a summary of the dataset. The firat 
 print(df.describe())
 ~~~
 <p align ="center"><img src="Statistical%20summary.PNG" /></p>
+
+Below are the individual functions that can also be used to get the same information as in the table above. These can be very useful if you just require one of the calculations to be completed.
+
+~~~python
+#min, max, mean, median, standard deviation
+print(df.min())
+print(df.max())
+print(df.std())
+print(df.median())
+print(df.mean())
+~~~
