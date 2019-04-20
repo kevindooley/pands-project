@@ -384,3 +384,47 @@ plt.show()
 There appears to be diagonal grouping of some pairs of attributes. This suggests a high correlation and a predictable relationship. The scatterplot visually demonstrates iris setosa groupings away from the other two flowers. It is possible to linearly separate the setosa species from the other two, something which was suspected based on previous plots.
 
 By reviewing the scatterplot it appears petal length and petal width potentially has the highest correlation, this could be further confirmed using a correlation plot.
+
+# References
+
+https://pandas.pydata.org/pandas-docs/stable/getting_started/overview.html#data-structures
+
+https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html#minutes-to-pandas
+
+https://blog.hedaro.com/Create-Pandas-DataFrame.html
+
+https://www.kaggle.com/bmaria/iris-dataset
+
+https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342
+
+https://www.kaggle.com/ashokdavas/iris-data-analysis-pandas-numpy
+
+https://www.kaggle.com/lalitharajesh/iris-dataset-exploratory-data-analysis
+
+https://www.youtube.com/watch?v=e60ItwlZTKM
+
+https://www.kaggle.com/gopaltirupur/iris-data-analysis-and-machine-learning-python
+
+https://www.geeksforgeeks.org/python-read-csv-using-pandas-read_csv/
+
+https://matplotlib.org/api/_as_gen/matplotlib.pyplot.hist.html
+
+https://www.youtube.com/watch?v=r75BPh1uk38
+
+https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
+
+https://www.geeksforgeeks.org/box-plot-and-histogram-exploration-on-iris-data/
+
+https://www.programiz.com/python-programming/reading-csv-files#reading-dictionary
+
+https://seaborn.pydata.org/tutorial/distributions.html#plotting-univariate-distributions
+
+https://seaborn.pydata.org/tutorial/distributions.html#plotting-univariate-distributions
+
+https://seaborn.pydata.org/generated/seaborn.boxplot.html?highlight=boxplots
+
+https://seaborn.pydata.org/tutorial/distributions.html#visualizing-pairwise-relationships-in-a-dataset
+
+https://www.tilcode.com/add-a-screenshot-to-your-github-repo-readme-md/
+
+https://www.markdownguide.org/extended-syntax/#syntax-highlighting
