@@ -160,3 +160,31 @@ print(df.std())
 print(df.median())
 print(df.mean())
 ~~~
+
+# Visualisation
+
+Interactive visualisation, you can take a concept a step further by using technology to drill down into charts and graphs for more detail
+
+I used graphical techniques to further begin uncovering the structure of the data:
+
+1. Univariate plots to better understand each attribute.
+2. Multivariate plots to better understand the relationships between attributes.
+
+## Histograms
+A histogram of each input variable will give an idea of the distribution.
+Matplotlib was used to generate the below histograms.
+
+~~~python
+#Histograms of all 4 variables all on one image
+
+#gives an array of axes
+#figsize - defines the size of the histogram
+#bins - range
+#rwidth - space between 
+df.hist(figsize=(10,5), bins=10, rwidth=0.8)
+~~~
+
+<p align ="center"><img src="histogram1.png" /></p>
+
+### Histogram of each individual variable
+
