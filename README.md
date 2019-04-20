@@ -188,7 +188,7 @@ df.hist(figsize=(10,5), bins=10, rwidth=0.8)
 
 ### Histogram of each individual variable
 
-<p align ="center"><img src="hist-sepal-length" /></p>
+<p align ="center"><img src="hist-sepal-length.png" /></p>
 
 ~~~python
 #Separate histograms for each column
@@ -208,7 +208,7 @@ plt.ylabel("Number of iris species")
 plt.show()
 ~~~
 
-<p align ="center"><img src="hist-sepal-width" /></p>
+<p align ="center"><img src="hist-sepal-width.png" /></p>
 
 ~~~python
 #Sepal Width
@@ -223,7 +223,7 @@ plt.ylabel("Number of iris species")
 plt.show()
 ~~~
 
-<p align ="center"><img src="hist-petal-length" /></p>
+<p align ="center"><img src="hist-petal-length.png" /></p>
 
 ~~~python
 #Petal Length
@@ -238,7 +238,7 @@ plt.ylabel("Number of iris species")
 plt.show()
 ~~~
 
-<p align ="center"><img src="hist-petal-width" /></p>
+<p align ="center"><img src="hist-petal-width.png" /></p>
 
 ~~~python
 #Petal Width
