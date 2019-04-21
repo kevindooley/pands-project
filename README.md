@@ -142,7 +142,7 @@ print(df.sample(10))
 ~~~
 
 By using these three simple functions it is easy to do a brief comparision for each of the variables of the data between each of the species. 
-By looking at the 3rd table showing random rows you can already clearly see the 'Iris~setosa' appears to have a much smaller petal compared to the other species. There aleady early signs of comparability between Iris-virginica and Iris-versicolor.
+By looking at the 3rd table showing random rows you can already clearly see the 'Iris~setosa' appears to have a much smaller petal compared to the other species. There already early signs of some comparability between Iris-virginica and Iris-versicolor.
 
 # Statistical summary
 
