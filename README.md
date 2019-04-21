@@ -146,7 +146,7 @@ By looking at the 3rd table showing random rows you can already clearly see the 
 
 # Statistical summary
 
-There are two methods in which you can view a summary of the dataset. The firat method is using the describe function in pandas which will output a table with a statistical overview of the data. It is also possible to obtain all the same information by using each individual built in function such as min, max, mean etc.
+There are two methods in which you can view a summary of the dataset. The first method is using the describe function in pandas which will output a table with a statistical overview of the data. It is also possible to obtain all the same information by using each individual built in function such as min, max, mean etc.
 
 ~~~python
 #outputs top level statistical analysis of the dataset ie mean, min, max etc
@@ -371,7 +371,7 @@ A scatterplot is a graph in which the values of two variables are plotted along 
 
 A scatterplot is a multivariate plot allows us to look at the interactions between the variables.
 
-The belwo scatterplot examines all pairs of attributes. This will be helpful to spot structured relationships between input variables.
+The below scatterplot examines all pairs of attributes. This will be helpful to spot structured relationships between input variables.
 
 <p align ="center"><img src="scatterplot.png" /></p>
 
@@ -389,7 +389,7 @@ There appears to be diagonal grouping of some pairs of attributes. This suggests
 
 By reviewing the scatterplot it appears petal length and petal width potentially has the highest correlation, this could be further confirmed using a correlation plot.
 
-#Overall summary of the dataset
+# Overall summary of the dataset
 
 The Iris data set has a number of interesting features:
 
