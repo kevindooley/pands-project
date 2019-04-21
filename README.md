@@ -43,7 +43,7 @@ These 4 libraries were imported into python as per below and were the foundation
 ~~~python
 import numpy as np
 import pandas as pd
-import seaborn as sn
+import seaborn as sns
 import matplotlib.pyplot as plt
 ~~~
 
@@ -388,6 +388,14 @@ plt.show()
 There appears to be diagonal grouping of some pairs of attributes. This suggests a high correlation and a predictable relationship. The scatterplot visually demonstrates iris setosa groupings away from the other two flowers. It is possible to linearly separate the setosa species from the other two, something which was suspected based on previous plots.
 
 By reviewing the scatterplot it appears petal length and petal width potentially has the highest correlation, this could be further confirmed using a correlation plot.
+
+#Overall summary of the dataset
+
+The Iris data set has a number of interesting features:
+
+Iris Setosa is linearly separable from the other two. However, the other two classes are not linearly separable.
+
+There is similarities between the Versicolor and Virginica classes making it difficult to achieve a perfect classification rate.
 
 # References
 
