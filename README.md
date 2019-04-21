@@ -51,7 +51,7 @@ import matplotlib.pyplot as plt
 To be able to give an overview of Fisher's Iris dataset, I had to first obtain it. I found the dataset online and copied and saved it as a CSV file in my repository. This was saved as irisdataset.csv and was the basis of the project.
 
 ## Reading from irisdataset.csv
-I refered back to the lecture in week 7 "opening files for reading and writing" which provided the foundation to develop some code to read the data in irisdataset.csv.
+I refered back to the lecture in week 7 "opening files for reading and writing" which refresed my mind and provided the foundation to develop some code to read the data in irisdataset.csv. Further information on the pandas website taught me how to read a csv file are per the code below.
 By importing pandas as pd, I created pd.read_csv("irisdataset.csv") which imported the dataset.
 
 ~~~python
