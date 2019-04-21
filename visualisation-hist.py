@@ -1,4 +1,4 @@
-#Keivn Dooley 07 Apr 19 - Graphical Analysis of irish data set
+#Kevin Dooley 07 Apr 19 - Graphical Analysis of iris data set
 
 import numpy as np
 import pandas as pd

@@ -1,3 +1,5 @@
+#Kevin Dooley 21 Apr 19 - Graphical Analysis of iris data set
+
 # violin plot to represent the data
 import numpy as np
 import pandas as pd
