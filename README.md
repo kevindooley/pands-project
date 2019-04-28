@@ -399,44 +399,48 @@ There is similarities between the Versicolor and Virginica classes making it dif
 
 # References
 
-https://pandas.pydata.org/pandas-docs/stable/getting_started/overview.html#data-structures
+**https://pandas.pydata.org/pandas-docs/stable/getting_started/overview.html#data-structures**
 
-https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html#minutes-to-pandas
+**https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html#minutes-to-pandas**
 
-https://blog.hedaro.com/Create-Pandas-DataFrame.html
+**https://blog.hedaro.com/Create-Pandas-DataFrame.html**
 
-https://www.kaggle.com/bmaria/iris-dataset
+**https://www.kaggle.com/bmaria/iris-dataset**
 
-https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342
+**https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342**
 
-https://www.kaggle.com/ashokdavas/iris-data-analysis-pandas-numpy
+**https://www.kaggle.com/ashokdavas/iris-data-analysis-pandas-numpy**
 
-https://www.kaggle.com/lalitharajesh/iris-dataset-exploratory-data-analysis
+**https://www.kaggle.com/lalitharajesh/iris-dataset-exploratory-data-analysis**
 
-https://www.youtube.com/watch?v=e60ItwlZTKM
+**https://www.youtube.com/watch?v=e60ItwlZTKM**
 
-https://www.kaggle.com/gopaltirupur/iris-data-analysis-and-machine-learning-python
+**https://www.kaggle.com/gopaltirupur/iris-data-analysis-and-machine-learning-python**
 
-https://www.geeksforgeeks.org/python-read-csv-using-pandas-read_csv/
+**https://www.geeksforgeeks.org/python-read-csv-using-pandas-read_csv/**
 
-https://matplotlib.org/api/_as_gen/matplotlib.pyplot.hist.html
+**https://matplotlib.org/api/_as_gen/matplotlib.pyplot.hist.html**
 
-https://www.youtube.com/watch?v=r75BPh1uk38
+**https://www.youtube.com/watch?v=r75BPh1uk38**
 
-https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
+**https://machinelearningmastery.com/machine-learning-in-python-step-by-step/**
 
-https://www.geeksforgeeks.org/box-plot-and-histogram-exploration-on-iris-data/
+**https://www.geeksforgeeks.org/box-plot-and-histogram-exploration-on-iris-data/**
 
-https://www.programiz.com/python-programming/reading-csv-files#reading-dictionary
+**https://www.programiz.com/python-programming/reading-csv-files#reading-dictionary**
 
-https://seaborn.pydata.org/tutorial/distributions.html#plotting-univariate-distributions
+**https://seaborn.pydata.org/tutorial/distributions.html#plotting-univariate-distributions**
 
-https://seaborn.pydata.org/tutorial/distributions.html#plotting-univariate-distributions
+**https://seaborn.pydata.org/tutorial/distributions.html#plotting-univariate-distributions**
 
-https://seaborn.pydata.org/generated/seaborn.boxplot.html?highlight=boxplots
+**https://seaborn.pydata.org/generated/seaborn.boxplot.html?highlight=boxplots**
 
-https://seaborn.pydata.org/tutorial/distributions.html#visualizing-pairwise-relationships-in-a-dataset
+**https://seaborn.pydata.org/tutorial/distributions.html#visualizing-pairwise-relationships-in-a-dataset**
 
-https://www.tilcode.com/add-a-screenshot-to-your-github-repo-readme-md/
+**https://www.tilcode.com/add-a-screenshot-to-your-github-repo-readme-md/**
 
-https://www.markdownguide.org/extended-syntax/#syntax-highlighting
+**https://www.markdownguide.org/extended-syntax/#syntax-highlighting**
+
+**https://towardsdatascience.com/a-quick-introduction-to-the-pandas-python-library-f1b678f34673**
+
+**http://rstudio-pubs-static.s3.amazonaws.com/321676_20be34434fe44ed2b229eadeabe0eb98.html**
